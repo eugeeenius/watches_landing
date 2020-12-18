@@ -1,0 +1,40 @@
+.review {
+  padding-bottom: 71px;
+  .title {
+    margin-bottom: 70px;
+  }
+  hr {
+    border: 1px solid #f6f6f6;;
+    border-bottom: none;
+    margin: 48px 0 53px 0;
+  }
+  &-item {
+    display: flex;
+    &__avatar {
+      width: 169px;
+      height: 169px;
+      border-radius: 100%;
+      margin-right: 62px;
+    }
+    &__content {
+      text-align: left;
+    }
+    &__name {
+      font-size: 18px;
+      font-weight: 700;
+      color: #0d0d0d;
+      line-height: 18px;
+    }
+    &__marathon {
+      font-size: 14px;
+      font-weight: 300;
+      color: #646464;
+      margin-top: 10px;
+    }
+    &__descr {
+      font-size: 16px;
+      font-weight: 300;
+      margin-top: 19px;
+    }
+  }
+}
